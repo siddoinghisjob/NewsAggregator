@@ -57,7 +57,7 @@ var Ticker *time.Ticker
 
 var urls []string = []string{
 	"https://moxie.foxnews.com/google-publisher/world.xml",
-	"https://www.theguardian.com/uk/rss",
+	"https://www.theguardian.com/world/rss",
 	"https://rss.nytimes.com/services/xml/rss/nyt/world.xml",
 	"https://feeds.feedburner.com/ndtvnews-world-news",
 	"https://www.cgtn.com/subscribe/rss/section/world.xml",

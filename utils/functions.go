@@ -29,7 +29,7 @@ func ExtractTextBetweenPTags(input string) string {
 
 func ImagePrint(Image []image) string {
 	if len(Image) == 0 {
-		return "No Image."
+		return "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/768px-No_image_available.svg.png"
 	}
 	if len(Image) == 1 {
 		return Image[0].URL
